@@ -86,7 +86,7 @@ For xterm, the default `$TERM` setting needs to be changed to `rxvt-256color`. T
 Setting TERM to `xterm-256color` may also work but seems to cause issues with rendering of the visualizers in some terminals.
 
 ### Alpine Linux
-	sudo apk add fftw-dev ncurses-dev cmake make automake autoconf gcc g++ 
+	sudo apk add fftw-dev ncurses-dev cmake make automake autoconf gcc g++ pulseaudio-dev (or pipewire-dev)
  	(OR use doas instead of sudo if applicable)
   	
    **REMEMBER:** Alpine is a minimal system with musl-libc, chances are it may build properly but not function
