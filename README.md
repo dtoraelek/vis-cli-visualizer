@@ -49,9 +49,6 @@
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-![travis-ci](https://travis-ci.org/dpayne/cli-visualizer.svg?branch=master)
-
-![Coverity Scan Build Status](https://scan.coverity.com/projects/7519/badge.svg)
 
 # cli-visualizer
 
@@ -83,6 +80,11 @@ For xterm, the default `$TERM` setting needs to be changed to `rxvt-256color`. T
     export TERM=rxvt-256color
 
 Setting TERM to `xterm-256color` may also work but seems to cause issues with rendering of the visualizers in some terminals.
+
+### Alpine Linux
+	sudo apk add fftw-dev ncurses-dev cmake make automake autoconf gcc g++ 
+ 	(OR use doas instead of sudo if applicable)
+  	**REMEMBER:** Alpine is a minimal system with musl-libc, chances are it may build properly but not function
 
 ### Debian & Ubuntu
 
