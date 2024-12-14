@@ -1,0 +1,23 @@
+- use configure or something similar to check for libraries and which compiler to use and flags
+
+- use 1000 color range for ColorDefinition, this is usueful for smoother gradients
+
+- add more visualizers
+    - add beat detection
+    - add flashing squares
+    - rotating boxes
+    - revolving lines
+        - color lines based on volume
+        - maybe use ellipse like transformer to generate lines
+            - lines would go from either end of the equivalent ellipse and revolve towards whatever the next position is
+
+- add more color examples
+    - add gifs of gradients
+
+- colors scheme improvements
+    - allow assigning different color schemes to different visualizers
+
+- add windows support
+    - probably just ncurses through cygwin
+    - audio source would be some windows api
+    - use define guards everywhere there are *nix dependent includes
