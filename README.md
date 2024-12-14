@@ -84,7 +84,8 @@ Setting TERM to `xterm-256color` may also work but seems to cause issues with re
 ### Alpine Linux
 	sudo apk add fftw-dev ncurses-dev cmake make automake autoconf gcc g++ 
  	(OR use doas instead of sudo if applicable)
-  	**REMEMBER:** Alpine is a minimal system with musl-libc, chances are it may build properly but not function
+  	
+   **REMEMBER:** Alpine is a minimal system with musl-libc, chances are it may build properly but not function
 
 ### Debian & Ubuntu
 
